@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.yuehen.pattern.create.factory.simplefactory.SimpleFactory</OriginalElement>
+  <nodes>
+    <node x="183.25" y="172.0">com.yuehen.pattern.create.factory.simplefactory.SimpleFactory</node>
+    <node x="197.25" y="0.0">com.yuehen.pattern.create.factory.domain.IEmployee</node>
+    <node x="0.0" y="86.0">com.yuehen.pattern.create.factory.domain.Devops</node>
+    <node x="136.0" y="86.0">com.yuehen.pattern.create.factory.domain.Testers</node>
+    <node x="270.0" y="86.0">com.yuehen.pattern.create.factory.domain.Developer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.yuehen.pattern.create.factory.domain.Testers" target="com.yuehen.pattern.create.factory.domain.IEmployee">
+      <point x="0.0" y="-18.0" />
+      <point x="193.0" y="66.0" />
+      <point x="248.625" y="66.0" />
+      <point x="-17.125" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.simplefactory.SimpleFactory" target="com.yuehen.pattern.create.factory.domain.IEmployee">
+      <point x="61.875" y="-18.0" />
+      <point x="327.625" y="152.0" />
+      <point x="417.5" y="152.0" />
+      <point x="417.5" y="56.0" />
+      <point x="317.125" y="56.0" />
+      <point x="51.375" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.simplefactory.SimpleFactory" target="com.yuehen.pattern.create.factory.domain.Devops">
+      <point x="-61.875" y="-18.0" />
+      <point x="203.875" y="152.0" />
+      <point x="58.0" y="152.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.domain.Developer" target="com.yuehen.pattern.create.factory.domain.IEmployee">
+      <point x="0.0" y="-18.0" />
+      <point x="338.5" y="66.0" />
+      <point x="282.875" y="66.0" />
+      <point x="17.125" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.simplefactory.SimpleFactory" target="com.yuehen.pattern.create.factory.domain.Developer">
+      <point x="20.625" y="-18.0" />
+      <point x="286.375" y="142.0" />
+      <point x="338.5" y="142.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.simplefactory.SimpleFactory" target="com.yuehen.pattern.create.factory.domain.Testers">
+      <point x="-20.625" y="-18.0" />
+      <point x="245.125" y="142.0" />
+      <point x="193.0" y="142.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="com.yuehen.pattern.create.factory.domain.Devops" target="com.yuehen.pattern.create.factory.domain.IEmployee">
+      <point x="0.0" y="-18.0" />
+      <point x="58.0" y="56.0" />
+      <point x="214.375" y="56.0" />
+      <point x="-51.375" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="82.5" y="18.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
