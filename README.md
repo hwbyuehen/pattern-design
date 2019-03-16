@@ -16,3 +16,8 @@ ThreadLocal单例：优点：定义线程级别的单例对象。
 破坏单例的方式有：序列化反序列化，反射创建对象。
 
 内部类单例执行逻辑：未使用该类时，不加载内部类，当使用时加载内部类，然后内部类的静态属性自动进行创建，获得的实例就是刚刚创建的单例对象。
+
+3、为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
+if (interfaces.length > 65535) {
+    throw new IllegalArgumentException("interface limit exceeded");
+}
